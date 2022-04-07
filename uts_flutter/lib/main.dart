@@ -237,8 +237,110 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                   Row(
-                    children: [],
-                  )
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20.0),
+                        child: Text(
+                          "Last Seen Courses  : ",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 20.0),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Card(
+                          margin: EdgeInsets.only(right: 20.0, top: 20.0),
+                          color: Color(0xff2c549),
+                          child: Container(
+                              child: Row(
+                            children: [
+                              Icon(Icons.task),
+                              Column(
+                                children: [
+                                  Text(
+                                    'Basics of Designing',
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0),
+                                  ),
+                                  Text(
+                                    '1 hour, 25 mins',
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0),
+                                  ),
+                                ],
+                              ),
+                              Icon(Icons.play_arrow_rounded)
+                            ],
+                          ))),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Card(
+                          margin: EdgeInsets.only(right: 20.0, top: 20.0),
+                          color: Color(0xff2c549),
+                          child: Container(
+                              child: Row(
+                            children: [
+                              Icon(Icons.bookmark),
+                              Column(
+                                children: [
+                                  Text(
+                                    'Human Rspiratory System',
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0),
+                                  ),
+                                  Text(
+                                    '4 hour, 10 mins',
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0),
+                                  ),
+                                ],
+                              ),
+                              Icon(Icons.play_arrow_rounded)
+                            ],
+                          ))),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Card(
+                          margin: EdgeInsets.only(right: 20.0, top: 20.0),
+                          color: Color(0xff2c549),
+                          child: Container(
+                              child: Row(
+                            children: [
+                              Icon(Icons.bookmark_add),
+                              Column(
+                                children: [
+                                  Text(
+                                    'Integration & Differentation',
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0),
+                                  ),
+                                  Text(
+                                    '2 hour, 37 mins',
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0),
+                                  ),
+                                ],
+                              ),
+                              Icon(Icons.play_arrow_rounded)
+                            ],
+                          ))),
+                    ],
+                  ),
                 ],
               ))),
     );
